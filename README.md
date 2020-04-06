@@ -7,10 +7,12 @@ and delete both the people and the contacts
 
 ## Technologies used
 Java 8
+PostgreSQL
 Apache Maven 3+
 spring-boot 2.0.1.RELEASE
 h2database, spring-boot-starter-thymeleaf, spring-boot-starter-data-jpa
 
 ## Usage
+set your configuration for connection whith Data Base src/main/resources/application.properties
 mvn spring-boot:run
 open: http://localhost:8080/
